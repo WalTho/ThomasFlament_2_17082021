@@ -1,4 +1,22 @@
-body
-{
-	
-}
+@font-face {
+    font-family : ralewayregular;
+    }
+    
+    body
+    {
+        font-family : ralewayregular, arial, serif;
+        
+        max-width : 1440px;
+        
+        margin: auto;
+        
+        width : fit-content;
+        
+    }
+    
+    
+    header
+    {
+        
+    }
+    
