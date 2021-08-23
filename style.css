@@ -15,6 +15,24 @@
         
     }
     
-    
+    #ancre
+    {
+        display: flex;
+        flex-wrap:nowrap;
+        justify-content: space-between;
+        vertical-align: baseline;
+    }
 
-    
+    ul
+    {
+        list-style-type: none;
+        margin-left:0;
+        padding-left:0;
+    }
+
+    .nav
+    {
+        float: left;
+        text-align: center;
+        padding-right: 16px;
+    }
