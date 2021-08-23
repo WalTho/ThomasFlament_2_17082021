@@ -1,210 +1,175 @@
 <!DOCTYPE html>
 
-
 <html lang="fr">
-
-<head>
-
-	<meta charset="utf-8">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
-
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" />
-
-	<script src="https://kit.fontawesome.com/2897f175fe.js" crossorigin="anonymous"> </script>
-
-	<title>Reservia</title>
-
-</head>
-
-
-<body>
-
-	<header> <!--Logo/Slogan & Nav-->
-
-		<div id="logo">
-			<a href="#Reservia"> <img src="Images/logo/Reservia.svg" alt="Reservia logo"> </a>
-		</div>
-
-		<nav>
-
-			<div id="ancre">
-
-				<ul>
-
-					<li class="nav"> <a href="#Hebergements">Hébergements</a> </li>
-					<li class="nav"> <a href="#Activites">Activités</a> </li>
-
-				</ul>
-
-				<span>
-					<a href="#inscription" class="lien_inscrire">S'inscrire</a>
-				</span>
-
-			</div>
-
-		</nav>
-
-
-		<div id="slogan">
-
-			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-
-			<p>En plein centre ville ou en pleine nature</p>
-
-		</div>
-
-	</header>
-
-
-	<div id="blockpage"> <!--L'ensemble du corps-->
-
-		<section id="blockresearch"> <!--Les champs de recherche & boutons -->
-
-
-            <div id="find">
-
-				<input type="search" class="searchInput" placeholder="Marseille, France">
-
-				<button class="searchButton">
-
-					<span>Rechercher</span>
-					<i class="fas fa-search"></i>
-
-				</button>
-			</div>
-
-
-			<div id="filtres">
-
-				<h2>Filtres</h2>
-
-				<button class="Eco">
-					<span>Économique</span>
-					<i class="fas fa-money-bill-wave"></i>
-				</button>
-
-				<button class="Fam">
-					<span>Familial</span>
-					<i class="fas fa-child"></i>
-				</button>
-
-				<button class="Rom">
-					<span>Romantique</span>
-					<i class="fas fa-heart"></i>
-				</button>
-
-				<button class="Pets">
-					<span>Animaux autorisés</span>
-					<i class="fas fa-dog"></i>
-				</button>
-
-			</div>
-		
-			<div class="info">
-				<span>Plus de 500 logements sont disponibles dans cette ville</span>
-				<i class="fas fa-info-circle"></i>
-			</div>
-
-		</section>
-
-
-		<div class="main"> <!--Les éléments centraux de la page-->
-
-
-			<section id="hebergementmarseille-lespluspop>
-				
-				
-				<div id="blockheber"> <!--Block hebergements-->
-
-					<h2>Hébergements à Marseille</h2>
-
-					<div class="hebercontainer">
-						
-
-					</div>
-
-					<a href="#Afficher-plus">Afficher plus</a>
-
-				</div>
-			
-
-				<aside id="blockpopular"> <!--Block les plus polpulaires-->
-
-					<h2>Les plus populaires</h2>
-					<i class="fas fa-chart-line"></i>
-
-					<div class="popcontainer">
-
-					</div>
-
-				</aside>
-			
-			
-			</section>
-
-
-			<section id="activites"> <!--Block activités-->
-
-				<h2>Activités à Marseille</h2>
-
-				<div id="activitycontainer">
-
-
-
-				</div>
-			
-			</section>
-
-		</div>	
-
-
-	</div>
-
-	<footer> <!--Pied de page-->
-
-		<section id=footcontainer> <!--Block pied de page-->
-
-			<div id="apropos">
-
-				<h3>À propos</h3>
-				<ul>
-					<li><a href="#Fonctionnement-du-site">Fonctionnement du site</a></li>
-					<li><a href="#Conditions-générales-de-vente">Conditions générales de vente</a></li>
-					<li><a href="#Données-et-confidentialité">Données et confidentialité</a></li>
-				</ul>
-
-			</div>
-
-
-			<div id="nosheber">
-
-				<h3>Nos hébergements</h3>
-				<ul>
-					<li><a href="#Charte-qualité">Charte qualité</a></li>
-					<li><a href="#Soumettre-votre-hôtel">Soumettre votre hôtel</a></li>
-				</ul>
-
-			</div>
-
-
-			<div id="help">
-
-				<h3>Assistance</h3>
-				<ul>
-					<li><a href="#Centre-d-aide">Centre d'aide</a></li>
-					<li><a href="#Nous-contacter">Nous contacter</a></li>
-				</ul>
-
-			</div>
-
-		</section>
-
-	</footer>
-
-
-</body>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <script
+      src="https://kit.fontawesome.com/2897f175fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Reservia</title>
+  </head>
+
+  <body>
+    <header>
+      <!--Logo/Slogan & Nav-->
+
+      <div id="logo">
+        <a href="#Reservia">
+          <img src="Images/logo/Reservia.svg" alt="Reservia logo" />
+        </a>
+      </div>
+
+      <nav>
+        <div id="ancre">
+          <ul>
+            <li class="nav"><a href="#Hebergements">Hébergements</a></li>
+            <li class="nav"><a href="#Activites">Activités</a></li>
+          </ul>
+
+          <span>
+            <a href="#inscription" class="lien_inscrire">S'inscrire</a>
+          </span>
+        </div>
+      </nav>
+
+      <div id="slogan">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+
+        <p>En plein centre ville ou en pleine nature</p>
+      </div>
+    </header>
+
+    <div id="blockpage">
+      <!--L'ensemble du corps-->
+
+      <section id="blockresearch">
+        <!--Les champs de recherche & boutons -->
+
+        <div id="find">
+          <input
+            type="search"
+            class="searchInput"
+            placeholder="Marseille, France"
+          />
+
+          <button class="searchButton">
+            <span>Rechercher</span>
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div id="filtres">
+          <h2>Filtres</h2>
+
+          <button class="Eco">
+            <span>Économique</span>
+            <i class="fas fa-money-bill-wave"></i>
+          </button>
+
+          <button class="Fam">
+            <span>Familial</span>
+            <i class="fas fa-child"></i>
+          </button>
+
+          <button class="Rom">
+            <span>Romantique</span>
+            <i class="fas fa-heart"></i>
+          </button>
+
+          <button class="Pets">
+            <span>Animaux autorisés</span>
+            <i class="fas fa-dog"></i>
+          </button>
+        </div>
+
+        <div class="info">
+          <span>Plus de 500 logements sont disponibles dans cette ville</span>
+          <i class="fas fa-info-circle"></i>
+        </div>
+      </section>
+
+      <div class="main">
+        <!--Les éléments centraux de la page-->
+
+        <section id="hebergementmarseille-lespluspop">
+          <div id="blockheber">
+            <!--Block hebergements-->
+
+            <h2>Hébergements à Marseille</h2>
+
+            <div class="hebercontainer"></div>
+
+            <a href="#Afficher-plus">Afficher plus</a>
+          </div>
+
+          <aside id="blockpopular">
+            <!--Block les plus populaires-->
+
+            <h2>Les plus populaires</h2>
+            <i class="fas fa-chart-line"></i>
+
+            <div class="popcontainer"></div>
+          </aside>
+        </section>
+
+        <section id="activites">
+          <!--Block activités-->
+
+          <h2>Activités à Marseille</h2>
+
+          <div id="activitycontainer"></div>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <!--Pied de page-->
+
+      <section id="footcontainer">
+        <!--Block pied de page-->
+
+        <div id="apropos">
+          <h3>À propos</h3>
+          <ul>
+            <li>
+              <a href="#Fonctionnement-du-site">Fonctionnement du site</a>
+            </li>
+            <li>
+              <a href="#Conditions-générales-de-vente"
+                >Conditions générales de vente</a
+              >
+            </li>
+            <li>
+              <a href="#Données-et-confidentialité"
+                >Données et confidentialité</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div id="nosheber">
+          <h3>Nos hébergements</h3>
+          <ul>
+            <li><a href="#Charte-qualité">Charte qualité</a></li>
+            <li><a href="#Soumettre-votre-hôtel">Soumettre votre hôtel</a></li>
+          </ul>
+        </div>
+
+        <div id="help">
+          <h3>Assistance</h3>
+          <ul>
+            <li><a href="#Centre-d-aide">Centre d'aide</a></li>
+            <li><a href="#Nous-contacter">Nous contacter</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
