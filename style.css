@@ -72,3 +72,70 @@ nav a:hover {
   font-weight: bold;
   padding-top: 16px;
 }
+
+#slogan {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 75%;
+}
+
+#blockresearch form {
+  display: flex;
+  flex-wrap: row;
+  text-decoration: none;
+}
+
+#blockresearch button {
+  background-color: #f2f2f2;
+}
+
+#filtres {
+  display: flex;
+  justify-content: space-between;
+}
+
+#filtres h2 {
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+
+#filtres ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: row;
+}
+
+#filtres li {
+  margin-right: 20px;
+  align-items: center;
+  width: auto;
+  border: 2px solid #d9d9d9;
+  border-radius: 2em;
+  transition-duration: 0.4s;
+}
+
+#filtres li:hover {
+  background-color: #0065fc;
+  color: white;
+}
+
+#filtres a {
+  color: black;
+  text-decoration: none;
+}
+
+#filtres i {
+  align-items: center;
+  width: auto;
+  border: 7px solid #deebff;
+  border-radius: 3em;
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+#filtres i:hover {
+  background-color: #deebff;
+  color: #0065fc;
+}

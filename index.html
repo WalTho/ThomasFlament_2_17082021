@@ -50,43 +50,27 @@
           <p>En plein centre ville ou en pleine nature</p>
         </div>
 
-        <div id="find">
-          <input
-            type="search"
-            class="searchInput"
-            placeholder="Marseille, France"
-          />
+        <form action="" method="get" class="find">
+          <div class="research1">
+            <button type="button"><i class="fas fa-map-marker-alt"></i></button>
+            <input type="text" name="researchbar" id="researchbar" required />
+          </div>
+          <div class="research2">
+            <input type="submit" value="Rechercher" />
+          </div>
+        </form>
 
-          <button class="searchButton">
-            <span>Rechercher</span>
-            <i class="fas fa-search"></i>
-          </button>
-        </div>
-
+        
         <div id="filtres">
-          <h2>Filtres</h2>
-
-          <button class="Eco">
-            <span>Économique</span>
-            <i class="fas fa-money-bill-wave"></i>
-          </button>
-
-          <button class="Fam">
-            <span>Familial</span>
-            <i class="fas fa-child"></i>
-          </button>
-
-          <button class="Rom">
-            <span>Romantique</span>
-            <i class="fas fa-heart"></i>
-          </button>
-
-          <button class="Pets">
-            <span>Animaux autorisés</span>
-            <i class="fas fa-dog"></i>
-          </button>
+          <h2>Filtres</h2>	
+	        	<ul>	
+	          	<li><a href="#"><i class="fas fa-money-bill-wave"></i> Économique <a></li>
+		          <li><a href="#"><i class="fas fa-child"></i> Familial <a></li>
+		          <li><a href="#"><i class="fas fa-heart"></i> Romantique <a></li>
+		          <li><a href="#"><i class="fas fa-dog"></i> Animaux autorisés <a></li>  
+		        </ul>  
         </div>
-
+      
         <div class="info">
           <span>Plus de 500 logements sont disponibles dans cette ville</span>
           <i class="fas fa-info-circle"></i>
