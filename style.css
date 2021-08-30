@@ -113,7 +113,7 @@ input {
   border-radius: 0px 10px 10px 0px;
   color: white;
   width: 110px;
-  height: 40px;
+  height: 43px;
   font-weight: bold;
 }
 
@@ -132,27 +132,38 @@ input {
 #filtres h2 {
   display: flex;
   font-size: small;
+  font-weight: bold;
   align-items: center;
 }
 
 #filtres ul {
   list-style-type: none;
   display: flex;
-  flex-wrap: row;
+  flex-direction: row;
 }
 
 #filtres li {
   padding-right: 20px;
-}
-
-#filtres li:hover {
-  background-color: #0065fc;
-  color: white;
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  height: 37px;
+  margin-right: 20px;
 }
 
 #filtres a {
   color: black;
   text-decoration: none;
+  text-align: center;
+}
+
+#filtres i {
+  color: #0065fc;
+  border: 1px solid #deebff;
+  border-radius: 30px;
+  background-color: #deebff;
+  width: 34px;
+  height: 28px;
+  margin-right: 10px;
 }
 
 #eco,
@@ -163,6 +174,11 @@ input {
   padding-top: 7px;
 }
 
+#filtres li:hover {
+  background-color: #0065fc;
+  color: white;
+}
+
 #filtres i:hover {
   background-color: #deebff;
   color: #0065fc;
@@ -171,4 +187,123 @@ input {
 #filtres a:hover {
   color: white;
   text-decoration: none;
+}
+
+/*Infos*/
+
+#info {
+  display: flex;
+  text-align: center;
+  font-size: 85%;
+}
+
+#logo-info {
+  color: #0065fc;
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+/*Blockpage*/
+
+#hebergementmarseille-lespluspop {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Block Hebergement*/
+
+#blockheber {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-right: 35px;
+  width: 600px;
+  height: 400px;
+}
+
+#blockheber h2 {
+  display: flex;
+  font-size: 120%;
+}
+
+.hebercontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#heber1 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+}
+
+#heber2 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+}
+#heber3 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+}
+#heber4 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+}
+#heber5 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+}
+#heber6 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+}
+/*Block Les plus populaires*/
+
+#blockpopular {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+#blockpopular h2 {
+  display: flex;
+  font-size: 120%;
+}
+
+#blockpopular i {
+  margin-left: 50px;
+}
+
+/*Block Activités*/
+
+#activites {
+  width: 800px;
+  height: 400px;
+}
+
+#activites h2 {
+  display: flex;
+  font-size: 120%;
 }
