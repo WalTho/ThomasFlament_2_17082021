@@ -192,18 +192,17 @@ input {
 /*Infos*/
 
 #info {
-  display: flex;
-  text-align: center;
-  font-size: 85%;
+  font-size: small;
 }
 
 #logo-info {
   color: #0065fc;
   border: 2px solid #f2f2f2;
-  border-radius: 30px;
-  width: 25px;
-  height: 25px;
+  border-radius: 20px;
+  width: 15px;
+  height: 20px;
   margin-right: 10px;
+  padding: 5px 0px 0px 10px;
 }
 
 /*Blockpage*/
@@ -221,8 +220,7 @@ input {
   background-color: #f2f2f2;
   border-radius: 10px;
   margin-right: 35px;
-  width: 600px;
-  height: 400px;
+  width: 65%;
 }
 
 #blockheber h2 {
@@ -285,6 +283,7 @@ input {
 #blockpopular {
   background-color: #f2f2f2;
   border-radius: 10px;
+  width: 30%;
 }
 
 #blockpopular h2 {
