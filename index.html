@@ -49,25 +49,26 @@
 
           <p>En plein centre ville ou en pleine nature</p>
         </div>
-
-        <form action="" method="get" class="find">
-          <div class="research1">
-            <button type="button"><i class="fas fa-map-marker-alt"></i></button>
-            <input type="text" name="researchbar" id="researchbar" required />
-          </div>
-          <div class="research2">
-            <input type="submit" value="Rechercher" />
-          </div>
-        </form>
-
+        
+        <div class="research1">
+          <form action="" method="get" class="find">
+            <i class="fas fa-map-marker-alt" id="map"></i>
+              <input type="text" name="researchbar" id="researchbar" placeholder="Marseille, France"/>
+                <button type="button" id="button">
+                    <span class="secret"></span> <i class="fas fa-search" id="search"></i>
+                    <span id="textsearch">Rechercher</span> 
+                </button>
+            </form>
+        </div>
+        
         
         <div id="filtres">
           <h2>Filtres</h2>	
 	        	<ul>	
-	          	<li><a href="#"><i class="fas fa-money-bill-wave"></i> Économique <a></li>
-		          <li><a href="#"><i class="fas fa-child"></i> Familial <a></li>
-		          <li><a href="#"><i class="fas fa-heart"></i> Romantique <a></li>
-		          <li><a href="#"><i class="fas fa-dog"></i> Animaux autorisés <a></li>  
+	          	<li><a href="#"><i class="fas fa-money-bill-wave" id="eco"></i> Économique <a></li>
+		          <li><a href="#"><i class="fas fa-child" id="child"></i> Familial <a></li>
+		          <li><a href="#"><i class="fas fa-heart" id="heart"></i> Romantique <a></li>
+		          <li><a href="#"><i class="fas fa-dog" id="pet"></i> Animaux autorisés <a></li>  
 		        </ul>  
         </div>
       
