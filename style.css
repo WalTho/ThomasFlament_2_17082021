@@ -29,7 +29,7 @@ header {
 
 #ancre {
   display: flex;
-  flex-wrap: row;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -166,6 +166,8 @@ input {
   margin-right: 10px;
 }
 
+/*Icones Filtres*/
+
 #eco,
 #child,
 #heart,
@@ -173,6 +175,8 @@ input {
   text-align: center;
   padding-top: 7px;
 }
+
+/*Effets hover*/
 
 #filtres li:hover {
   background-color: #0065fc;
@@ -214,12 +218,14 @@ input {
   background-color: #f2f2f2;
   border-radius: 10px;
   margin-right: 35px;
-  width: 65%;
+  width: 85%;
+  padding-bottom: 50px;
 }
 
 #blockheber h2 {
   display: flex;
   font-size: 120%;
+  padding-left: 20px;
 }
 
 #blockheber a {
@@ -282,7 +288,7 @@ input {
   background-color: white;
 }
 
-/*Espace des étoiles*/
+/*Espacement des étoiles*/
 
 #fig1 i,
 #fig3 i,
@@ -297,7 +303,7 @@ input {
   padding-top: 8px;
 }
 
-/*icônes bleues*/
+/*icônes bleues hebergements*/
 
 #fig1 span,
 #fig3 span,
@@ -306,7 +312,7 @@ input {
   color: #0065fc;
 }
 
-/*icônes grises*/
+/*icônes grises hebergements*/
 
 #gray1,
 #gray2,
@@ -335,8 +341,7 @@ input {
 /*Block Activités*/
 
 #activites {
-  width: 800px;
-  height: 400px;
+  display: flex;
 }
 
 #activites h2 {
