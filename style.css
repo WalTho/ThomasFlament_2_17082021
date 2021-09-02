@@ -146,7 +146,7 @@ input {
   padding-right: 20px;
   border: 2px solid #f2f2f2;
   border-radius: 30px;
-  height: 37px;
+  height: 38px;
   margin-right: 20px;
 }
 
@@ -161,8 +161,8 @@ input {
   border: 1px solid #deebff;
   border-radius: 30px;
   background-color: #deebff;
-  width: 34px;
-  height: 28px;
+  width: 38px;
+  height: 29px;
   margin-right: 10px;
 }
 
@@ -180,13 +180,7 @@ input {
 }
 
 #filtres i:hover {
-  background-color: #deebff;
   color: #0065fc;
-}
-
-#filtres a:hover {
-  color: white;
-  text-decoration: none;
 }
 
 /*Infos*/
@@ -207,7 +201,7 @@ input {
 
 /*Blockpage*/
 
-#hebergementmarseille-lespluspop {
+#heber_pop {
   display: flex;
   flex-direction: row;
 }
@@ -228,56 +222,99 @@ input {
   font-size: 120%;
 }
 
-.hebercontainer {
+#blockheber a {
+  text-decoration: none;
+  color: black;
+}
+
+#blockheber strong {
+  font-weight: bold;
+}
+
+#frameblock {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-right: 30px;
 }
 
-#heber1 {
-  display: flex;
-  background-color: white;
-  border-radius: 10px;
-  width: 150px;
-  height: 100px;
+#frameblock figure {
+  width: 226px;
+  height: 180px;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px #7a7d7f;
 }
 
-#heber2 {
-  display: flex;
-  background-color: white;
-  border-radius: 10px;
-  width: 150px;
-  height: 100px;
+.frame {
+  margin-bottom: 30px;
 }
-#heber3 {
-  display: flex;
-  background-color: white;
-  border-radius: 10px;
-  width: 150px;
-  height: 100px;
+
+/*Taille des photos*/
+
+#photo_fig1,
+#photo_fig2,
+#photo_fig3,
+#photo_fig4,
+#photo_fig5,
+#photo_fig6 {
+  width: 220px;
+  height: 110px;
+  border: 3px solid white;
+  border-radius: 20px 20px 0 0;
 }
-#heber4 {
-  display: flex;
+
+/*Taille des légendes*/
+
+#legend1,
+#legend2,
+#legend3,
+#legend4,
+#legend5,
+#legend6 {
+  width: 210px;
+  height: 62px;
+  border: 3px solid white;
+  border-radius: 0 0 20px 20px;
+  color: black;
+  padding-left: 10px;
+  margin-top: -6px;
   background-color: white;
-  border-radius: 10px;
-  width: 150px;
-  height: 100px;
 }
-#heber5 {
-  display: flex;
-  background-color: white;
-  border-radius: 10px;
-  width: 150px;
-  height: 100px;
+
+/*Espace des étoiles*/
+
+#fig1 i,
+#fig3 i,
+#fig4 i,
+#fig5 i {
+  padding-top: 8px;
 }
-#heber6 {
-  display: flex;
-  background-color: white;
-  border-radius: 10px;
-  width: 150px;
-  height: 100px;
+
+#fig2 i,
+#fig6 i {
+  color: #0065fc; /*Toutes les étoiles sont bleues*/
+  padding-top: 8px;
 }
+
+/*icônes bleues*/
+
+#fig1 span,
+#fig3 span,
+#fig4 #sblue,
+#fig5 span {
+  color: #0065fc;
+}
+
+/*icônes grises*/
+
+#gray1,
+#gray2,
+#sgray,
+#gray4 {
+  color: #f2f2f2;
+}
+
 /*Block Les plus populaires*/
 
 #blockpopular {
