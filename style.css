@@ -335,7 +335,7 @@ input {
   color: #f2f2f2;
 }
 
-/*Block Les plus populaires*/
+/*Block Les plus populaires */
 
 #blockpopular {
   background-color: #f2f2f2;
@@ -355,8 +355,89 @@ input {
 }
 
 #blockpopular i {
-  margin-left: 30px;
+  margin-left: 2px;
   margin-top: 20px;
+}
+
+#blockpopular a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+#blockpopular strong {
+  font-weight: bold;
+}
+
+#popcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#popcontainer figure {
+  width: 226px;
+  height: 180px;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px #7a7d7f;
+}
+
+.framepop {
+  width: 31%;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Taille des photos*/
+
+#photo_figpop1,
+#photo_figpop2,
+#photo_figpop3 {
+  width: 80px;
+  height: 110px;
+  border: 3px solid white;
+  border-radius: 20px 0 0 20px;
+}
+
+/*Taille des légendes*/
+
+#legendpop1,
+#legendpop2,
+#legendpop3 {
+  width: 150px;
+  height: 110px;
+  border: 3px solid white;
+  border-radius: 0 20px 20px 0;
+  color: black;
+
+  background-color: white;
+}
+
+/*Espacement des étoiles*/
+
+#figpop2 i,
+#figpop3 i {
+  padding-top: 3px;
+}
+
+#figpop1 i {
+  color: #0065fc; /*Toutes les étoiles sont bleues*/
+  padding-top: 3px;
+}
+
+/*icônes bleues pop*/
+
+#figpop2 span,
+#figpop3 span {
+  color: #0065fc;
+}
+
+/*icônes grises pop*/
+
+#graypop2,
+#graypop3 {
+  color: #f2f2f2;
 }
 
 /*Block Activités*/
@@ -369,3 +450,5 @@ input {
   display: flex;
   font-size: 120%;
 }
+
+/*Block Footer*/
