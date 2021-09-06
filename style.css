@@ -452,3 +452,38 @@ input {
 }
 
 /*Block Footer*/
+
+footer {
+  background-color: #f2f2f2;
+  height: 250px;
+}
+
+#footcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+#footcontainer h3 {
+  font-weight: bold;
+  margin-left: 39px;
+}
+
+#footcontainer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#footcontainer li {
+  margin-right: 220px;
+  margin-top: 10px;
+}
+
+#footcontainer a {
+  text-decoration: none;
+  color: black;
+}
