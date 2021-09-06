@@ -435,8 +435,8 @@ input {
 
 /*icônes grises pop*/
 
-#graypop2,
-#graypop3 {
+#graypop1,
+#graypop2 {
   color: #f2f2f2;
 }
 
@@ -444,6 +444,7 @@ input {
 
 #activites {
   display: flex;
+  width: 100%;
 }
 
 #activites h2 {
