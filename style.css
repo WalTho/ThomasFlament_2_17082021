@@ -43,6 +43,7 @@ header {
 #logo img {
   width: 100px;
   height: 50px;
+  margin-left: -10px;
 }
 
 nav ul {
@@ -72,6 +73,8 @@ nav a:hover {
   padding-top: 16px;
 }
 
+/*blockresearch*/
+
 #slogan {
   display: flex;
   flex-direction: column;
@@ -79,7 +82,13 @@ nav a:hover {
   font-size: 85%;
 }
 
-/*blockresearch*/
+#slogan h1 {
+  margin-bottom: -5px;
+}
+
+#slogan p {
+  margin-bottom: -2px;
+}
 
 form {
   display: flex;
@@ -237,7 +246,7 @@ input {
 #blockheber h2 {
   display: flex;
   font-size: 120%;
-  padding-left: 40px;
+  padding-left: 52px;
   padding-top: 25px;
 }
 
@@ -275,9 +284,11 @@ input {
   width: 31%;
 }
 
-#afficher_plus {
-  padding-bottom: 30px;
-  padding-left: 20px;
+#afficherplus p {
+  font-weight: bold;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  margin-bottom: -30px;
 }
 
 /*Taille des photos*/
@@ -366,7 +377,8 @@ aside img {
 #blockpopular h2 {
   display: flex;
   font-size: 120%;
-  margin-right: 30px;
+  margin-right: 110px;
+  margin-left: 45px;
 }
 
 #blockpopular i {
@@ -396,10 +408,9 @@ aside img {
 #framepop3 {
   display: flex;
   flex-direction: row;
-  margin-bottom: 35px;
-
-  width: 330px;
-  height: 116px;
+  margin-bottom: 50px;
+  width: 310px;
+  height: 130px;
   border: 1px solid white;
   border-radius: 20px;
   box-shadow: 1px 1px 6px #7a7d7f;
@@ -411,7 +422,7 @@ aside img {
 #photo_figpop2,
 #photo_figpop3 {
   width: 120px;
-  height: 110px;
+  height: 125px;
   border: 3px solid white;
   border-radius: 20px 0 0 20px;
 }
@@ -421,8 +432,8 @@ aside img {
 #legendpop1,
 #legendpop2,
 #legendpop3 {
-  width: 220px;
-  height: 100px;
+  width: 175px;
+  height: 115px;
   border: 3px solid white;
   border-radius: 0 20px 20px 0;
   color: black;
@@ -466,7 +477,7 @@ aside img {
   display: flex;
   font-size: 120%;
   padding-top: 50px;
-  margin-left: -5px;
+  margin-bottom: -5px;
 }
 
 #activitycontainer {
@@ -486,15 +497,15 @@ aside img {
 
 #figact1 {
   border-radius: 20px;
-  width: 310px;
+  width: 315px;
   height: 430px;
   box-shadow: 1px 1px 6px #7a7d7f;
-  margin-left: -20px;
+  margin-left: -10px;
   margin-right: -1px;
 }
 
 #photo_figact1 {
-  width: 310px;
+  width: 315px;
   height: 370px;
   border-radius: 20px 20px 0 0;
 }
@@ -511,7 +522,7 @@ aside img {
 
 #figact2 {
   border-radius: 20px;
-  width: 310px;
+  width: 315px;
   height: 230px;
   box-shadow: 1px 1px 6px #7a7d7f;
   margin-right: -1px;
@@ -519,7 +530,7 @@ aside img {
 }
 
 #photo_figact2 {
-  width: 310px;
+  width: 315px;
   height: 180px;
   border-radius: 20px 20px 0 0;
 }
@@ -536,7 +547,7 @@ aside img {
 
 #figact3 {
   border-radius: 20px;
-  width: 310px;
+  width: 315px;
   height: 150px;
   box-shadow: 1px 1px 6px #7a7d7f;
   margin-right: -1px;
@@ -544,7 +555,7 @@ aside img {
 }
 
 #photo_figact3 {
-  width: 310px;
+  width: 315px;
   height: 100px;
   border-radius: 20px 20px 0 0;
 }
@@ -561,14 +572,14 @@ aside img {
 
 #figact4 {
   border-radius: 20px;
-  width: 310px;
+  width: 315px;
   height: 430px;
   box-shadow: 1px 1px 6px #7a7d7f;
   margin-right: -1px;
 }
 
 #photo_figact4 {
-  width: 310px;
+  width: 315px;
   height: 370px;
   border-radius: 20px 20px 0 0;
 }
@@ -585,7 +596,7 @@ aside img {
 
 #figact5 {
   border-radius: 20px;
-  width: 310px;
+  width: 315px;
   height: 180px;
   box-shadow: 1px 1px 6px #7a7d7f;
   margin-right: -1px;
@@ -593,7 +604,7 @@ aside img {
 }
 
 #photo_figact5 {
-  width: 310px;
+  width: 315px;
   height: 130px;
   border-radius: 20px 20px 0 0;
 }
@@ -610,7 +621,7 @@ aside img {
 
 #figact6 {
   border-radius: 20px;
-  width: 310px;
+  width: 315px;
   height: 200px;
   box-shadow: 1px 1px 6px #7a7d7f;
   margin-right: -1px;
@@ -618,7 +629,7 @@ aside img {
 }
 
 #photo_figact6 {
-  width: 310px;
+  width: 315px;
   height: 160px;
   border-radius: 20px 20px 0 0;
 }
