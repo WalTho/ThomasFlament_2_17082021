@@ -250,7 +250,7 @@ input {
 #blockheber h2 {
   display: flex;
   font-size: 120%;
-  padding-left: 52px;
+  padding-left: 40px;
   padding-top: 25px;
 }
 
@@ -271,6 +271,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: -5px;
 }
 
 #frameblock figure {
