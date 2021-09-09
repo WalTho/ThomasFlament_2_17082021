@@ -24,7 +24,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 30px 10px 30px;
+  padding-top: 40px;
 }
 
 #ancre {
@@ -60,8 +61,9 @@ nav a {
 
 nav a:hover {
   color: #0065fc;
-  border-top: 3px solid #0065fc;
-  padding-top: 23px;
+  border-top: 5px solid #0065fc;
+
+  padding-top: 63px;
 }
 
 #inscription {
@@ -244,6 +246,10 @@ input {
   font-weight: bold;
 }
 
+#blockheber img {
+  object-fit: cover;
+}
+
 #frameblock {
   display: flex;
   flex-wrap: wrap;
@@ -259,10 +265,10 @@ input {
 }
 
 .frame {
-  width: 31%;
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  width: 31%;
 }
 
 #afficher_plus {
@@ -337,10 +343,15 @@ input {
 
 /*Block Les plus populaires */
 
-#blockpopular {
+aside {
   background-color: #f2f2f2;
   border-radius: 10px;
   width: 30%;
+  padding-top: 20px;
+}
+
+aside img {
+  object-fit: cover;
 }
 
 #titre_aside {
@@ -371,22 +382,23 @@ input {
 
 #popcontainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 42px;
 }
 
-#popcontainer figure {
-  width: 226px;
-  height: 180px;
+#framepop1,
+#framepop2,
+#framepop3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+
+  width: 330px;
+  height: 116px;
   border: 1px solid white;
   border-radius: 20px;
   box-shadow: 1px 1px 6px #7a7d7f;
-}
-
-.framepop {
-  width: 31%;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 /*Taille des photos*/
@@ -394,7 +406,7 @@ input {
 #photo_figpop1,
 #photo_figpop2,
 #photo_figpop3 {
-  width: 80px;
+  width: 120px;
   height: 110px;
   border: 3px solid white;
   border-radius: 20px 0 0 20px;
@@ -405,31 +417,31 @@ input {
 #legendpop1,
 #legendpop2,
 #legendpop3 {
-  width: 150px;
-  height: 110px;
+  width: 220px;
+  height: 100px;
   border: 3px solid white;
   border-radius: 0 20px 20px 0;
   color: black;
-
+  padding: 10px 0 0 10px;
   background-color: white;
 }
 
 /*Espacement des étoiles*/
 
-#figpop2 i,
-#figpop3 i {
-  padding-top: 3px;
+#legendpop1 i,
+#legendpop3 i {
+  margin-top: 40px;
 }
 
-#figpop1 i {
-  color: #0065fc; /*Toutes les étoiles sont bleues*/
-  padding-top: 3px;
+#legendpop2 i {
+  margin-top: 20px;
 }
 
 /*icônes bleues pop*/
 
-#figpop2 span,
-#figpop3 span {
+#legendpop1 i,
+#legendpop2 span,
+#legendpop3 span {
   color: #0065fc;
 }
 
@@ -452,7 +464,11 @@ input {
   font-size: 120%;
 }
 
-/*Block Footer*/
+#activites img {
+  object-fit: cover;
+}
+
+/*Footer*/
 
 footer {
   background-color: #f2f2f2;
@@ -487,4 +503,37 @@ footer {
 #footcontainer a {
   text-decoration: none;
   color: black;
+}
+
+/*responsive V.mobile*/
+@media all and (max-width: 667px) {
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #blockpage {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+  }
+}
+
+/*responsive V.Tablet*/
+
+@media all and (min-width: 668px) and (max-width: 1024px) {
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #blockpage {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+  }
 }
