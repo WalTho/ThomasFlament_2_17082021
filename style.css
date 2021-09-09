@@ -46,6 +46,10 @@ header {
   margin-left: -10px;
 }
 
+#ancre {
+  padding-right: 30px;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
