@@ -488,6 +488,11 @@ aside img {
   padding-bottom: 50px;
 }
 
+#activitycontainer a {
+  text-decoration: none;
+  color: black;
+}
+
 #activites img {
   object-fit: cover;
   display: flex;
