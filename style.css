@@ -908,4 +908,15 @@ footer {
   }
 
   /*Block Hebergements */
+
+  #blockheber {
+    width: 100%;
+    background-color: white;
+    margin-left: -15px;
+  }
+
+  #frameblock {
+    flex-direction: column;
+    width: 100%;
+  }
 }
