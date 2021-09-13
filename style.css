@@ -739,22 +739,173 @@ footer {
   }
 
   nav li {
-    width: 50%;
+    width: 100%;
     border-bottom: 3px solid #f2f2f2;
     padding-bottom: 10px;
     margin: 0px;
     text-align: center;
   }
-  nav a:hover {
-    padding-top: 37px;
-  }
 
-  nav li a:hover {
-    border-top: none;
-  }
-
-  nav a:hover {
-    border-color: #0065fc;
+  nav ul :active {
+    border-bottom: 3px solid #0065fc;
     color: #0065fc;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0px;
   }
+
+  nav li :active {
+    border-bottom: none;
+  }
+
+  /*blockresearch*/
+
+  #blockresearch {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #slogan {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  #slogan p {
+    margin-left: -10px;
+  }
+
+  form {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #map {
+    width: 15%;
+  }
+
+  #researchbar {
+    width: 80%;
+    /*  color: black;
+    font-weight: bold; */
+  }
+
+  #button {
+    width: 15%;
+    border-radius: 10px;
+  }
+
+  #button span {
+    display: none;
+  }
+
+  #search {
+    display: block;
+  }
+
+  /*bloc filtres*/
+
+  #filtres {
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-top: -10px;
+  }
+
+  #filtres a {
+    margin-left: -30px;
+  }
+
+  #filtres h2 {
+    margin-left: -17px;
+    font-size: 17px;
+  }
+
+  #filtres ul {
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: -30px;
+  }
+
+  #filtres li {
+    margin-bottom: 13px;
+  }
+
+  /*Infos*/
+
+  #info {
+    width: 80%;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+
+  #logo-info {
+    font-size: 12px;
+    margin-left: -43px;
+  }
+
+  /* main / heber_pop */
+
+  .main {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  /*Block Les plus populaires */
+
+  aside {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #titre_aside {
+    margin-left: -20px;
+  }
+
+  #titre_aside i {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  #popcontainer {
+    margin-top: -10px;
+  }
+
+  #framepop1,
+  #framepop2 {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+
+  #framepop3 {
+    width: 100%;
+    height: 150px;
+    margin-left: -20px;
+  }
+
+  #photo_figpop1,
+  #photo_figpop2,
+  #photo_figpop3 {
+    width: 140px;
+    height: 144px;
+  }
+
+  #legendpop1,
+  #legendpop2,
+  #legendpop3 {
+    width: 192px;
+    height: 135px;
+  }
+
+  #legendpop1 i,
+  #legendpop3 i,
+  #legendpop2 i {
+    font-size: 14px;
+    margin-top: 60px;
+  }
+
+  /*Block Hebergements */
 }
