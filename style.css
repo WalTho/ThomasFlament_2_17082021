@@ -757,7 +757,7 @@ footer {
     border-bottom: none;
   }
 
-  nav a :hover {
+  nav a:hover {
     border-top: none;
   }
 
@@ -789,8 +789,6 @@ footer {
 
   #researchbar {
     width: 80%;
-    /*  color: black;
-    font-weight: bold; */
   }
 
   #button {
