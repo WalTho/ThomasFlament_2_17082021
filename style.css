@@ -917,8 +917,158 @@ footer {
     margin-left: -15px;
   }
 
+  #blockheber h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
   #frameblock {
     flex-direction: column;
     width: 100%;
+  }
+  #frameblock figure {
+    width: 100%;
+    height: 200px;
+    margin-bottom: -20px;
+  }
+  .frame {
+    width: 320px;
+  }
+
+  #fig1,
+  #fig2,
+  #fig3,
+  #fig4,
+  #fig5,
+  #fig6 {
+    width: 300px;
+  }
+
+  #photo_fig1,
+  #photo_fig2,
+  #photo_fig3,
+  #photo_fig4,
+  #photo_fig5,
+  #photo_fig6 {
+    width: 315px;
+    height: 120px;
+  }
+
+  #legend1,
+  #legend2,
+  #legend3,
+  #legend4,
+  #legend5,
+  #legend6 {
+    width: 300px;
+  }
+  #fig1 i,
+  #fig2 i,
+  #fig3 i,
+  #fig4 i,
+  #fig5 i,
+  #fig6 i {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+
+  #afficherplus {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+
+  /*Block Activités*/
+
+  #activitycontainer {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -20px;
+  }
+
+  #activites h2 {
+    font-size: 23px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+  }
+
+  #activitycontainer a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #activites img {
+    justify-content: center;
+  }
+
+  #photo_figact1,
+  #photo_figact2,
+  #photo_figact3,
+  #photo_figact4,
+  #photo_figact5,
+  #photo_figact6 {
+    height: 135px;
+  }
+
+  #act1,
+  #act2-3,
+  #act4,
+  #act5-6 {
+    width: 100%;
+  }
+
+  #figact1,
+  #figact4 {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 320px;
+    height: 190px;
+  }
+
+  #figact2,
+  #figact3,
+  #figact5,
+  #figact6 {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 320px;
+    height: 190px;
+  }
+
+  #legendact1,
+  #legendact2,
+  #legendact3,
+  #legendact4,
+  #legendact5,
+  #legendact6 {
+    font-weight: 350;
+    font-size: 15px;
+    width: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  /*Footer*/
+
+  footer {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+  }
+
+  #footcontainer {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  #footcontainer ul {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #footcontainer li {
+    width: 100%;
+    margin-top: 12px;
   }
 }
