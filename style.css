@@ -477,6 +477,10 @@ aside img {
   font-weight: bold;
 }
 
+#activites strong {
+  font-size: 95%;
+}
+
 #activites h2 {
   display: flex;
   font-size: 120%;
@@ -719,6 +723,7 @@ footer {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     width: 100%;
+    padding-right: 0px;
   }
 
   #inscription {
@@ -745,7 +750,7 @@ footer {
     text-align: center;
   }
 
-  nav ul :active {
+  nav ul :hover {
     border-bottom: 3px solid #0065fc;
     color: #0065fc;
     padding-bottom: 10px;
@@ -753,7 +758,7 @@ footer {
     margin: 0px;
   }
 
-  nav li :active {
+  nav li :hover {
     border-bottom: none;
   }
 
@@ -915,6 +920,7 @@ footer {
     width: 100%;
     background-color: white;
     margin-left: -15px;
+    margin-right: 0px;
   }
 
   #blockheber h2 {
@@ -942,6 +948,7 @@ footer {
   #fig5,
   #fig6 {
     width: 300px;
+    margin-right: 0px;
   }
 
   #photo_fig1,
@@ -1065,7 +1072,7 @@ footer {
   }
 
   #footcontainer ul {
-    width: 100%;
+    width: 315px;
     margin-bottom: 40px;
   }
 
@@ -1073,4 +1080,9 @@ footer {
     width: 100%;
     margin-top: 12px;
   }
+}
+
+/*responsive V.mobile*/
+
+@media all and (min-width: 668px) and (max-width: 1024px) {
 }
