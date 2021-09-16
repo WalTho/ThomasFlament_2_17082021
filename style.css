@@ -974,6 +974,7 @@ footer {
 
   #afficherplus {
     margin-top: 8px;
+    margin-bottom: -20px;
     font-size: 18px;
   }
 
@@ -988,6 +989,7 @@ footer {
   #activites h2 {
     font-size: 23px;
     margin-left: 28px;
+    margin-top: -10px;
     margin-bottom: 10px;
   }
 
