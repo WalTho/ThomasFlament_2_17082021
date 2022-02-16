@@ -244,6 +244,7 @@ input {
   margin-right: 35px;
   width: 65%;
   padding-bottom: 50px;
+  min-width: 855px;
 }
 
 #blockheber h2 {
@@ -877,6 +878,8 @@ footer {
 
   #popcontainer {
     margin-top: -10px;
+    max-width: 353px;
+    min-width: 320px;
   }
 
   #framepop1,
@@ -1273,6 +1276,7 @@ footer {
 
   #popcontainer {
     margin-top: -10px;
+    max-width: 800px;
   }
 
   #framepop1,
@@ -1326,7 +1330,7 @@ footer {
 
   #frameblock {
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
   }
   #frameblock figure {
     width: 100%;
@@ -1390,6 +1394,7 @@ footer {
   #activitycontainer {
     margin-bottom: -20px;
     flex-wrap: wrap-reverse;
+    max-width: 780px;
   }
 
   #activites h2 {
